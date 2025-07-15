@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8"/>
+<title>String Reverses</title>
+</head>
+<body>
+
+<h2>Enter a String to reverse:</h2>
+<form th:action="@{/process}" method="post">
+<input type="text" name="original" required/>
+<button type="submit">Reverse It</button>
+
+</form>
+</body>
+</html>

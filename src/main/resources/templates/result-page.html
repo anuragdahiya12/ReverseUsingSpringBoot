@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8"/>
+<title>Result</title>
+</head>
+<body>
+<h2>Original String:</h2>
+<p th:text="${original}"></p>
+
+<h2>Reversed String:</h2>
+<p th:text="${reversed}"></p>
+
+<a th:href="@{/}"> Try Again</a>
+
+</body>
+</html>
